@@ -6,7 +6,7 @@ app.use(cors())
 app.options("*",cors())
 
 app.get("/",(req,res)=>{
-    res.send("Food Order!!!!")
+    res.send("Hungry Bunny")
 })
 
 app.listen(5000, ()=>{console.log(`Server started at port 5000`)})
