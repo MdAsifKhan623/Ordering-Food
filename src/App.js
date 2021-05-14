@@ -32,10 +32,6 @@ function App() {
         </Col>
         
       </Row>
-      <Switch>
-        <Route exact path="/signup" component={SignUp} />
-        <Route exact path="/login" component={Login} />
-      </Switch>
       
       </Router>
     </Container>
