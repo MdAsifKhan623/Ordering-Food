@@ -26,13 +26,12 @@ function App() {
           <h1 style={{color:'red'}}>{result}</h1>
         </Col>
         <Col xs={6} lg={4} md={4}>
-            <Link className="log-in" to="/signup" >Sign up</Link> &nbsp;
-            <Link className="log-in" to="/login" >Log in</Link>
+            <Link className="log-in" to={"/signup"} >Sign up</Link> &nbsp;
+            <Link className="log-in" to={"/login"} >Log in</Link>
             
         </Col>
         
       </Row>
-      
       </Router>
     </Container>
     </div>
