@@ -3,8 +3,6 @@ import axios from 'axios'
 import './App.css';
 import {Container, Row, Col} from 'react-bootstrap'
 import {BrowserRouter as Router, Route, Switch,  Link} from 'react-router-dom'
-import Login from './SignIn/login'
-import SignUp from './SignIn/signup'
 
 
 function App() {
