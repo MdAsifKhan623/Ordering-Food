@@ -1,37 +1,26 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import './App.css';
+import NavBar from './headerNav'
 import {Container, Row, Col} from 'react-bootstrap'
 import {BrowserRouter as Router, Route, Switch,  Link} from 'react-router-dom'
-
+import SignUp from './SignIn/signup';
+import Login from './SignIn/login'
+import foodimage from "./assets/food-delivery.jpg"
 
 function App() {
-  let [result,setResult]=useState('')
-  useEffect(()=>{
-    axios.get("http://localhost:5000/").then(res=>{
-      setResult(res.data)
-    })
-  })
+  // let [result,setResult]=useState('')
+  // useEffect(()=>{
+  //   axios.get("http://localhost:5000/").then(res=>{
+  //     setResult(res.data)
+  //   })
+  // })
   return (
     <div className="App">
-    <Container fluid>
-    <Router>
-      <Row>
-        <Col xs={6} lg={4} md={4}>
-          
-        </Col>
-        <Col xs={6} lg={4} md={4}>
-          <h1 style={{color:'red'}}>{result}</h1>
-        </Col>
-        <Col xs={6} lg={4} md={4}>
-            <Link className="log-in" to={"/signup"} >Sign up</Link> &nbsp;
-            <Link className="log-in" to={"/login"} >Log in</Link>
-            
-        </Col>
-        
-      </Row>
-      </Router>
-    </Container>
+      <NavBar/>
+      <img src={foodimage} className="food-image"/>
+      
+
     </div>
   );
 }
