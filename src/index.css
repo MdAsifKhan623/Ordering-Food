@@ -54,4 +54,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.address-fill{
+  display: flex;
+  min-height: 40px;
+  justify-content: center;
+}
 
+.submit-address{
+  border-radius: 50%;
+  background-color: red;
+  border: none;
+}
+.address-type{
+  display: inline-flex;
+  font-size: 16px;
+  border: none;
+  padding:8px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.address-bar{
+  display: flex;
+  border-radius: 32px;
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  align-items: center;
+  background-color:rgb(255, 255, 255);
+}

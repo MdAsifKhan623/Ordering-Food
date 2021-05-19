@@ -1,8 +1,18 @@
-import React from 'react'
+import React,{useState} from 'react'
+import { Button } from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import bunny from "./assets/hungry bunny.png"
 
 function NavBar() {
+  const [formValue,setformValue]=useState('')
+
+  const handleChange=(event)=>{ 
+      setformValue(event.target.value)
+  }
+
+  const handleSubmit=()=>{
+
+  }
 
   return (
     <div >
@@ -18,6 +28,22 @@ function NavBar() {
           <img src={bunny} width="50" height="60" /> &nbsp;
           Hungry Bunny</p>
           Feel the Magic of Indian-American-Cuban-MiddleEastern Cuisine all in One Place
+          <br/><br/>
+          <div className="address-fill">
+            <div className="address-bar">
+              <div size="8">
+                <input type="text" className="address-type" value={formValue} placeholder="Enter Address" onChange={handleChange} />
+              </div>
+              <div size>
+                <button type="submit" onClick={handleSubmit} className="submit-address" shape="Circle" size="16">
+                <i class="fa fa-arrow-right" style={{color:'white'}} aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+            {/* <form onSubmit={handleSubmit} >
+              
+            </form> */}
+          </div>
         </div>
       </div>
       
