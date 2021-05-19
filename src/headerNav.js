@@ -8,7 +8,7 @@ function NavBar() {
     <div >
       <div className="Container-1">
         <div className="login-feat">
-          <Link className="log-in" to={"/signup"} >Sign up</Link> &nbsp;
+          <Link className="sign-up" to={"/signup"} >Sign up</Link> &nbsp;
           <Link className="log-in" to={"/login"} >Log in</Link>
         </div>
       </div>
