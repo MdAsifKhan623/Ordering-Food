@@ -10,12 +10,12 @@ import CardComp from "./Card-Component"
 
 export default function Options(){
     return(
-        <div>
+        <div className="option-div">
             <div className="nearby">Nearby Options</div>
             <div className="food-options">
-                <div><CardComp/></div>
-                <div><CardComp/></div>
-                <div><CardComp/></div>                
+                <div><CardComp img={kfc}/></div>
+                <div><CardComp img={walgreens}/></div>
+                <div><CardComp img={burger}/></div>                
             </div>
         </div>
     )

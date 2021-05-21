@@ -2,12 +2,8 @@ import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import './App.css';
 import NavBar from './FrontPage/headerNav'
-import {Container, Row, Col} from 'react-bootstrap'
-import {BrowserRouter as Router, Route, Switch,  Link} from 'react-router-dom'
-import SignUp from './SignIn/signup';
-import Login from './SignIn/login'
 import foodimage from "./assets/food-delivery.jpg"
-
+import Options from "../src/FrontPage/Options"
 function App() {
   // let [result,setResult]=useState('')
   // useEffect(()=>{
@@ -17,10 +13,13 @@ function App() {
   // })
   return (
     <div className="App">
-      <NavBar/>
-      <img src={foodimage} className="food-image"/>
-      
-
+      <div className="Header-Nav">
+        <NavBar/>
+        <img src={foodimage} className="food-image"/>
+      </div>
+      <div className="Options-section">
+        <Options/>
+      </div>
     </div>
   );
 }

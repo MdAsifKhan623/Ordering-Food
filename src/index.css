@@ -6,6 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
 .log-in{
   text-decoration: none;
   font-weight: bolder;
@@ -56,6 +61,11 @@ code {
 }
 
 /*Header Nav Styling*/
+.Header-Nav{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 230px;
+}
 .address-fill{
   display: flex;
   min-height: 40px;
@@ -90,6 +100,17 @@ code {
 /* Options Page Styling */
 .food-options{
   display: flex;
+}
+.Options-section{
+  display: flex;
+  width: 100%;
+  max-width: 1184px;
+  justify-content: center;
+  margin: 0px auto;
+}
+.option-div{
+  max-width: 100%;
+  padding: 12px;
 }
 
 
