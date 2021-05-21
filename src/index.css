@@ -54,6 +54,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*Header Nav Styling*/
 .address-fill{
   display: flex;
   min-height: 40px;
@@ -64,6 +66,7 @@ code {
   border-radius: 50%;
   background-color: red;
   border: none;
+  margin-right: 10px;
 }
 .address-type{
   display: inline-flex;
@@ -83,3 +86,10 @@ code {
   align-items: center;
   background-color:rgb(255, 255, 255);
 }
+
+/* Options Page Styling */
+.food-options{
+  display: flex;
+}
+
+

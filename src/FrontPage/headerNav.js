@@ -1,7 +1,6 @@
 import React,{useState} from 'react'
-import { Button } from 'react-bootstrap'
 import {Link} from 'react-router-dom'
-import bunny from "./assets/hungry bunny.png"
+import bunny from "../assets/hungry bunny.png"
 
 function NavBar() {
   const [formValue,setformValue]=useState('')

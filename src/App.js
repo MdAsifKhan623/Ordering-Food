@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios'
 import './App.css';
-import NavBar from './headerNav'
+import NavBar from './FrontPage/headerNav'
 import {Container, Row, Col} from 'react-bootstrap'
 import {BrowserRouter as Router, Route, Switch,  Link} from 'react-router-dom'
 import SignUp from './SignIn/signup';
