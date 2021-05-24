@@ -13,9 +13,12 @@ export default function Options(){
         <div className="option-div">
             <div className="nearby">Nearby Options</div>
             <div className="food-options">
-                <div><CardComp img={kfc}/></div>
-                <div><CardComp img={walgreens}/></div>
-                <div><CardComp img={burger}/></div>                
+                <div className="food-items"><CardComp img={kfc}/></div>
+                <div className="food-items"><CardComp img={walgreens}/></div>
+                <div className="food-items"><CardComp img={burger}/></div>  
+                <div className="food-items"><CardComp img={pizza}/></div>
+                <div className="food-items"><CardComp img={frenchfry}/></div>
+                <div className="food-items"><CardComp img={wendy}/></div>               
             </div>
         </div>
     )

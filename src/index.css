@@ -100,17 +100,40 @@ code {
 /* Options Page Styling */
 .food-options{
   display: flex;
+  justify-content: center;
+  -webkit-box-pack: center;
+  flex-flow: row wrap;
+  flex-wrap: wrap;
+  
 }
 .Options-section{
-  display: flex;
   width: 100%;
   max-width: 1184px;
-  justify-content: center;
   margin: 0px auto;
 }
 .option-div{
   max-width: 100%;
   padding: 12px;
 }
-
-
+.food-items{
+  max-width: 33%;
+  flex-basis: 33%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+.card-img-top{
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border:none;
+}
+.card{
+  margin: 0px auto;
+  border: none;
+}
+.nearby{
+ display: flex;
+ font-size: 30px;
+ font-weight: bolder;
+ margin: 10px;
+}

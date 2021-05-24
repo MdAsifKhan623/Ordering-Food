@@ -39,9 +39,6 @@ function NavBar() {
                 </button>
               </div>
             </div>
-            {/* <form onSubmit={handleSubmit} >
-              
-            </form> */}
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './FrontPage/headerNav'
 import foodimage from "./assets/food-delivery.jpg"
 import Options from "../src/FrontPage/Options"
+import foodFrontPage from "./assets/food-front-page.jpg"
 function App() {
   // let [result,setResult]=useState('')
   // useEffect(()=>{
@@ -15,7 +16,7 @@ function App() {
     <div className="App">
       <div className="Header-Nav">
         <NavBar/>
-        <img src={foodimage} className="food-image"/>
+        <img src={foodFrontPage} className="food-image"/>
       </div>
       <div className="Options-section">
         <Options/>
