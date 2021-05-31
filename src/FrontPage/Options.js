@@ -11,9 +11,9 @@ import CardComp from "./Card-Component"
 
 export default function Options(){
     const description={
-        kfc:"Immerse Youself in the taste Juicy Fried Chicken.",
+        kfc:"Immerse yourself in the taste Juicy Fried Chicken.",
         walgreens:"Taste the finest of Japanese Cuisine in the delight of sushi.",
-        burgerking: "Take a Bite of delicious Burgers and satiate your hunger.",
+        burgerking: "Take a bite of delicious Burgers and satiate your hunger.",
         Dominos:"Pizza made for ravenous as well as casual eaters.",
         fryies:"You think Patato tastes bad? Try it and you'll never say that again.",
         wendyCoke:"Thirsty and need to have something cold ?? Take a Sip of Coke and enjoy the rest of your day!"
