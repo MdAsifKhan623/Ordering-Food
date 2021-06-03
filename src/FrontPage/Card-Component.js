@@ -9,7 +9,6 @@ export default function CardComp(props){
                 <Card.Text>
                 {props.description}
                 </Card.Text>
-                {/* <Button variant="primary">{props.place}</Button> */}
             </Card.Body>
         </Card>
     </div>)
