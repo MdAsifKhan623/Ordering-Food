@@ -21,9 +21,6 @@ function App() {
       <div className="Options-section">
         <Options/>
       </div>
-      <div>
-        Help us and yourself get better.
-      </div>
       <div className="contribute">
         <Contribute/>
       </div>

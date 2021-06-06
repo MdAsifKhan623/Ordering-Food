@@ -5,6 +5,7 @@ import App from './App';
 import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'
 import SignUp from './SignIn/signup'
 import Login from './SignIn/login'
+import Coupon from './Coupons'
 
 ReactDOM.render(
   <div className="index">
@@ -13,6 +14,7 @@ ReactDOM.render(
           <Route  path="/" exact component={App} />
           <Route path="/signup" exact component={SignUp}/>
           <Route path="/login" exact component={Login}/>
+          <Route path="/coupons" exact component={Coupon}/>
       </Switch>
     </Router>
   </div>,
