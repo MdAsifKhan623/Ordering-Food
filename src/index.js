@@ -5,7 +5,7 @@ import App from './App';
 import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'
 import SignUp from './SignIn/signup'
 import Login from './SignIn/login'
-import Coupon from './Coupons'
+import Coupon from './FrontPage/Coupons'
 
 ReactDOM.render(
   <div className="index">

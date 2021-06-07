@@ -136,3 +136,21 @@ code {
  font-weight: bolder;
  margin: 10px;
 }
+
+.coupons{
+  width: 100%;
+  height:200px;
+  background-color: red;
+}
+
+.download-app{
+  width: 100%;
+  height:200px;
+  background-color: blue;
+}
+
+.contribute{
+  width: 100%;
+  height:200px;
+  background-color: yellowgreen;
+}
