@@ -21,7 +21,7 @@ function App() {
       <div className="Options-section">
         <Options/>
       </div>
-      <div className="contribute">
+      <div className="contribute-app">
         <Contribute/>
       </div>
     </div>

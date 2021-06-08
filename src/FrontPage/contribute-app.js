@@ -15,9 +15,9 @@ export default function Contribute(){
     return (
         <div>
             <div className="food-options">
-                <div className="food-items"><CardPerks title="Download App" description={description.dwnldApp} img={phoneapp} link="Click Here"/></div>
-                <div className="food-items"><CardPerks title="Contribute" description={description.contribute} img={contributeImage} link="Click Here"/></div>
-                <div className="food-items"><CardPerks title="Get Coupons" description={description.coupons} img={couponsImage} link="Click Here"/></div>                
+                <div className="food-items"><CardPerks title="Download App" description={description.dwnldApp} img={phoneapp} /></div>
+                <div className="food-items"><CardPerks title="Contribute" description={description.contribute} img={contributeImage} /></div>
+                <div className="food-items"><CardPerks title="Get Coupons" description={description.coupons} img={couponsImage} /></div>                
             </div>
         </div>
     )

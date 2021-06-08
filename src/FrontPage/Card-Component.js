@@ -18,18 +18,19 @@ export default function CardComp(props){
 function CardPerks(props){
     return (
         <div>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={props.img} />
-            <Card.Body>
-                <Card.Title>{props.title}</Card.Title>
-                <Card.Text>
-                    {props.description}
-                </Card.Text>
-                <Card.Text>
-                    <Link to={"/coupons"}>{props.link}</Link>
-                </Card.Text>
-            </Card.Body>
-        </Card>
+
+            <Link to={"/coupons"} className="card-contribute">
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={props.img} />
+                    <Card.Body>
+                        <Card.Title>{props.title}</Card.Title>
+                        <Card.Text>
+                            {props.description}
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+            </Link>
+        
         </div>
     )
 }
