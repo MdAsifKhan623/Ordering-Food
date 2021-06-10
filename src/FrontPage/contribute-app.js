@@ -4,6 +4,7 @@ import phoneapp from '../assets/phone-app.png'
 import contributeImage from '../assets/contribute.png'
 import couponsImage from '../assets/coupons.png'
 import flavor from "../assets/flavor.jpg"
+import get_app from '../assets/get_app.jpg'
 
 export default function Contribute(){
 
@@ -35,6 +36,23 @@ export default function Contribute(){
                 </div>
                 <div className="cuisineImages">
                     <img src={flavor} />
+                </div>
+            </div>
+            <div className="get-cuisine">
+                
+                <div className="cuisineImages">
+                    <img src={get_app} />
+                </div>
+                <div className="cuisine-flex">
+                    <div className="cuisine-description">
+                        <div size="12">
+                            <span className="cuisine-header">Having Hard Time Finding the Restaurants? Check This out.</span>
+                        </div>
+                        <div size="16">
+                            <span>We offer endless offers from your nearby restaurants.Please go find them.</span>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
