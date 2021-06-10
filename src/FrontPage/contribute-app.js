@@ -3,6 +3,7 @@ import {CardPerks} from './Card-Component'
 import phoneapp from '../assets/phone-app.png'
 import contributeImage from '../assets/contribute.png'
 import couponsImage from '../assets/coupons.png'
+import flavor from "../assets/flavor.jpg"
 
 export default function Contribute(){
 
@@ -18,6 +19,23 @@ export default function Contribute(){
                 <div className="food-items"><CardPerks title="Download App" description={description.dwnldApp} img={phoneapp} /></div>
                 <div className="food-items"><CardPerks title="Contribute" description={description.contribute} img={contributeImage} /></div>
                 <div className="food-items"><CardPerks title="Get Coupons" description={description.coupons} img={couponsImage} /></div>                
+            </div>
+            <div className="get-cuisine">
+                <div className="cuisine-flex">
+                    <div className="cuisine-description">
+                        <div size="12">
+                            <span className="cuisine-header">Want a Special and Unique Cuisine? We have got you. </span>
+                        </div>
+                        <div size="16">
+                            <span>Countless options at reasonably affordable prices in excellent rated restaurants. Feel like 
+                            trying something new? Try Us. We won't let you get disappointed.</span>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="cuisineImages">
+                    <img src={flavor} />
+                </div>
             </div>
         </div>
     )

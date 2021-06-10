@@ -162,3 +162,34 @@ code {
   text-decoration: none;
   color: black;
 }
+.get-cuisine{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  margin: 0px auto;
+  flex-flow: row nowrap;
+}
+
+.cuisine-header{
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  font-weight: 700;
+}
+
+.cuisine-flex{
+  display: flex;
+  
+  max-width: 1184px;
+  
+  justify-content: flex-start;
+}
+
+.cuisine-description{
+  display: flex;
+  flex-flow: column nowrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-bottom: 96px;
+  flex: 4 1 0%;
+}
