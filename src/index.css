@@ -181,7 +181,7 @@ code {
   display: flex;
   
   max-width: 1184px;
-  
+  flex-flow: row nowrap;
   justify-content: flex-start;
 }
 

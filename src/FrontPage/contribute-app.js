@@ -38,6 +38,7 @@ export default function Contribute(){
                     <img src={flavor} />
                 </div>
             </div>
+            <br/>
             <div className="get-cuisine">
                 
                 <div className="cuisineImages">
