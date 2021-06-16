@@ -22,36 +22,38 @@ export default function Contribute(){
                 <div className="food-items"><CardPerks title="Get Coupons" description={description.coupons} img={couponsImage} /></div>                
             </div>
             <div className="get-cuisine">
-                <div className="cuisine-flex">
-                    <div className="cuisine-description">
-                        <div size="12">
-                            <span className="cuisine-header">Want a Special and Unique Cuisine? We have got you. </span>
-                        </div>
-                        <div size="16">
-                            <span>Countless options at reasonably affordable prices in excellent rated restaurants. Feel like 
-                            trying something new? Try Us. We won't let you get disappointed.</span>
+                <div className="randomFlex" size="48">
+                    <div className="cuisine-flex">
+                            <div size="12">
+                                <span className="cuisine-header">Want a Special and Unique Cuisine? We have got you. </span>
+                            </div>
+                            <div size="16">
+                                <span>Countless options at reasonably affordable prices in excellent rated restaurants. Feel like 
+                                trying something new? Try Us. We won't let you get disappointed.</span>
 
-                        </div>
+                            </div>
+                        
                     </div>
-                </div>
-                <div className="cuisineImages">
-                    <img src={flavor} />
+                    <div className="cuisineImages">
+                        <img src={flavor} />
+                    </div>
                 </div>
             </div>
             <br/>
             <div className="get-cuisine">
-                
-                <div className="cuisineImages">
-                    <img src={get_app} />
-                </div>
-                <div className="cuisine-flex">
-                    <div className="cuisine-description">
-                        <div size="12">
-                            <span className="cuisine-header">Having Hard Time Finding the Restaurants? Check This out.</span>
-                        </div>
-                        <div size="16">
-                            <span>We offer endless offers from your nearby restaurants.Please go find them.</span>
+                <div className="randomFlex">
+                    <div className="cuisineImages">
+                        <img src={get_app} />
+                    </div>
+                    <div className="cuisine-flex">
+                        <div className="cuisine-description">
+                            <div size="12">
+                                <span className="cuisine-header">Having Hard Time Finding the Restaurants? Check This out.</span>
+                            </div>
+                            <div size="16">
+                                <span>We offer endless offers from your nearby restaurants.Please go find them.</span>
 
+                            </div>
                         </div>
                     </div>
                 </div>
