@@ -187,4 +187,10 @@ code {
 }
 .cuisineImages{
   flex: 7 1 0%;
+  margin:0 auto;
+}
+
+.cuisinePics{
+  width:100%; 
+  height:auto;
 }

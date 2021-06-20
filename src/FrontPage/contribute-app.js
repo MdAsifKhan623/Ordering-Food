@@ -35,7 +35,7 @@ export default function Contribute(){
                         
                     </div>
                     <div className="cuisineImages">
-                        <img src={flavor} />
+                        <img className="cuisinePics" src={flavor} />
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@ export default function Contribute(){
             <div className="get-cuisine">
                 <div className="randomFlex">
                     <div className="cuisineImages">
-                        <img src={get_app} />
+                        <img className="cuisinePics" src={get_app} />
                     </div>
                     <div className="cuisine-flex">
                         <div className="cuisine-description">
