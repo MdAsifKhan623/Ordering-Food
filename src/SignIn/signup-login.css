@@ -1,0 +1,12 @@
+.signup{
+    margin-top: 100px;
+    text-align: center;
+    width: 600px;
+    height: 300px;
+    background-color: beige;
+    border-radius: 15px;
+}
+.signup-box{
+    text-align: center;
+    margin: 0px auto;
+}

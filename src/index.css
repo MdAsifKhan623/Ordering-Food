@@ -100,6 +100,36 @@ code {
   width: 400px;
 }
 
+.footer-front{
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  /* text-align: center; */
+  height: 200px;
+  margin-top: 20px;
+}
+.footer-section{
+  display: flex;
+}
+
+.items{
+  flex-basis: 33%;
+  text-align: center;
+}
+
+ul{
+  list-style-type:none;
+}
+
+li{
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 /* Options Page Styling */
 .food-options{
   display: flex;

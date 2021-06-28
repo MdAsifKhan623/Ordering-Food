@@ -5,6 +5,8 @@ import NavBar from './FrontPage/headerNav'
 import Contribute from './FrontPage/contribute-app'
 import Options from "../src/FrontPage/Options"
 import foodFrontPage from "./assets/food-front-page.jpg"
+import Footer from './FrontPage/footer'
+
 function App() {
   // let [result,setResult]=useState('')
   // useEffect(()=>{
@@ -23,6 +25,9 @@ function App() {
       </div>
       <div className="contribute-app">
         <Contribute/>
+      </div>
+      <div className="footer-front">
+        <Footer/>
       </div>
     </div>
   );
