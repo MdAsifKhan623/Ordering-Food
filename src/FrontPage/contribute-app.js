@@ -24,15 +24,16 @@ export default function Contribute(){
             <div className="get-cuisine">
                 <div className="randomFlex" size="48">
                     <div className="cuisine-flex">
+                            
                             <div size="12">
                                 <span className="cuisine-header">Want a Special and Unique Cuisine? We have got you. </span>
                             </div>
+
                             <div size="16">
                                 <span>Countless options at reasonably affordable prices in excellent rated restaurants. Feel like 
                                 trying something new? Try Us. We won't let you get disappointed.</span>
 
                             </div>
-                        
                     </div>
                     <div className="cuisineImages">
                         <img className="cuisinePics" src={flavor} />

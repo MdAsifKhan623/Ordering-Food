@@ -1,9 +1,18 @@
 import React,{useState,useEffect} from 'react'
 
-const registerHandler=(event)=>{
 
-}
 export default function SignUp(){
+
+    const [userDetails, setSignUpDetails]=useState({
+        userEmail:"",
+        fullName:"",
+        password:"",
+        confirmPassword:""
+    })
+    const registerHandler=(event)=>{
+        console.log("hi",event)
+    }
+
     return (
         <div  className="signup-box">
             <div className="signup">
@@ -13,6 +22,7 @@ export default function SignUp(){
                             <p>Email Id</p>
                             <input
                                 type='text'
+                                name="emailId"
                                 placeholder="Email Id"
                             />
                         </label>
@@ -21,6 +31,7 @@ export default function SignUp(){
                             <p>Full Name</p>
                             <input
                                 type='text'
+                                name="fullName"
                                 placeholder="Full Name"
                             />
                         </label>
@@ -29,6 +40,7 @@ export default function SignUp(){
                             <p>Password</p>
                             <input
                                 type='text'
+                                name="password"
                                 placeholder="Password"
                             />
                         </label>
@@ -37,6 +49,7 @@ export default function SignUp(){
                             <p>Confirm Password</p>
                             <input
                                 type='text'
+                                name="confirmPassword"
                                 placeholder="Confirm Password"
                             />
                         </label>
