@@ -10,7 +10,16 @@ export default function SignUp(){
         confirmPassword:""
     })
     const registerHandler=(event)=>{
-        console.log("hi",event)
+        event.preventDefault()
+        if(userDetails.password !== userDetails.confirmPassword){
+            console.log("confirm password wrong!!")
+        }
+    }
+
+    const handleChange=(event)=>{
+        const {name,value}=event.target
+        setSignUpDetails((prevDetails)=>({...prevDetails,[name]:value.trim()}))
+        
     }
 
     return (
@@ -22,8 +31,9 @@ export default function SignUp(){
                             <p>Email Id</p>
                             <input
                                 type='text'
-                                name="emailId"
+                                name="userEmail"
                                 placeholder="Email Id"
+                                onChange={handleChange}
                             />
                         </label>
                         <br/>
@@ -33,6 +43,7 @@ export default function SignUp(){
                                 type='text'
                                 name="fullName"
                                 placeholder="Full Name"
+                                onChange={handleChange}
                             />
                         </label>
                         <br/>
@@ -42,6 +53,7 @@ export default function SignUp(){
                                 type='text'
                                 name="password"
                                 placeholder="Password"
+                                onChange={handleChange}
                             />
                         </label>
                         <br/>
@@ -51,6 +63,7 @@ export default function SignUp(){
                                 type='text'
                                 name="confirmPassword"
                                 placeholder="Confirm Password"
+                                onChange={handleChange}
                             />
                         </label>
                         <br/>
