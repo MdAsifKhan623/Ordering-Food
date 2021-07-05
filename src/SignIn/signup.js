@@ -28,8 +28,9 @@ export default function SignUp(){
                 <form onSubmit={registerHandler}>
                     <fieldset>
                         <label>
-                            <p>Email Id</p>
+                            <p className="label-headers">Email Id</p>
                             <input
+                                className="text-field"
                                 type='text'
                                 name="userEmail"
                                 placeholder="Email Id"
@@ -38,8 +39,9 @@ export default function SignUp(){
                         </label>
                         <br/>
                         <label>
-                            <p>Full Name</p>
+                            <p className="label-headers">Full Name</p>
                             <input
+                                className="text-field"
                                 type='text'
                                 name="fullName"
                                 placeholder="Full Name"
@@ -48,8 +50,9 @@ export default function SignUp(){
                         </label>
                         <br/>
                         <label>
-                            <p>Password</p>
+                            <p className="label-headers">Password</p>
                             <input
+                                className="text-field"
                                 type='text'
                                 name="password"
                                 placeholder="Password"
@@ -58,16 +61,17 @@ export default function SignUp(){
                         </label>
                         <br/>
                         <label>
-                            <p>Confirm Password</p>
+                            <p className="label-headers">Confirm Password</p>
                             <input
+                                className="text-field"
                                 type='text'
                                 name="confirmPassword"
                                 placeholder="Confirm Password"
                                 onChange={handleChange}
                             />
                         </label>
-                        <br/>
                     </fieldset>
+                    <br/>
                     <button type="submit">Submit</button>
                 </form>
             </div>  
