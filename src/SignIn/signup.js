@@ -28,7 +28,6 @@ export default function SignUp(){
                 <form onSubmit={registerHandler}>
                     <fieldset>
                         <label>
-                            <p className="label-headers">Email Id</p>
                             <input
                                 className="text-field"
                                 type='text'
@@ -39,7 +38,6 @@ export default function SignUp(){
                         </label>
                         <br/>
                         <label>
-                            <p className="label-headers">Full Name</p>
                             <input
                                 className="text-field"
                                 type='text'
@@ -50,7 +48,6 @@ export default function SignUp(){
                         </label>
                         <br/>
                         <label>
-                            <p className="label-headers">Password</p>
                             <input
                                 className="text-field"
                                 type='text'
@@ -61,7 +58,6 @@ export default function SignUp(){
                         </label>
                         <br/>
                         <label>
-                            <p className="label-headers">Confirm Password</p>
                             <input
                                 className="text-field"
                                 type='text'
@@ -72,7 +68,7 @@ export default function SignUp(){
                         </label>
                     </fieldset>
                     <br/>
-                    <button type="submit">Submit</button>
+                    <button type="submit" className="signup-btn">Submit</button>
                 </form>
             </div>  
         </div>
