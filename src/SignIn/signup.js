@@ -24,6 +24,7 @@ export default function SignUp(){
 
     return (
         <div  className="signup-box">
+            <h1><center>Sign Up</center></h1>
             <div className="signup">
                 <form onSubmit={registerHandler}>
                     <fieldset>
