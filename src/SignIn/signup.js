@@ -69,7 +69,12 @@ export default function SignUp(){
                         </label>
                     </fieldset>
                     <br/>
-                    <button type="submit" className="signup-btn">Submit</button>
+                    <p>
+                        <button type="submit" className="signup-btn">Submit</button>
+                    </p>      
+                    <p>              
+                        <button type="submit" className="signup-btn">Login</button>
+                    </p>
                 </form>
             </div>  
         </div>
