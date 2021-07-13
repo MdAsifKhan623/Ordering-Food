@@ -24,6 +24,7 @@ export default function SignUp(){
 
     return (
         <div  className="signup-box">
+            <h2><center>Create an Account!</center></h2>
             <h1><center><i class="fas fa-user-plus"></i></center></h1>
             <div className="signup">
                 <form onSubmit={registerHandler}>
@@ -73,7 +74,7 @@ export default function SignUp(){
                         <button type="submit" className="signup-btn">Submit</button>
                     </p>      
                     <p>              
-                        <button type="submit" className="signup-btn">Login</button>
+                        <button type="submit" href="/login" className="signup-btn">Login</button>
                     </p>
                 </form>
             </div>  
