@@ -48,9 +48,10 @@ export default function Login(){
                     <p>
                         <button type="submit" className="signup-btn">Submit</button>
                     </p>
-                    <p>
-                        <button type="submit" className="signup-btn">Sign Up</button>
-                    </p>
+
+                    <p>Don't Have an Account? Register Below.</p>
+                    <a href="/signup" className="login-redirect" >Register</a>
+                    
                 </form>
             </div>  
         </div>

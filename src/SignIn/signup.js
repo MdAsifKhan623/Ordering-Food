@@ -73,12 +73,9 @@ export default function SignUp(){
                     <p>
                         <button type="submit" className="signup-btn">Submit</button>
                     </p>      
-                    <p>              
-                        <p>Already Have an Account ?</p>
-                        
-                        <a href="/login" className="login-redirect">Login</a>
-                        {/* <button type="submit" className="signup-btn">Login</button> */}
-                    </p>
+                    <p>Already Have an Account ?</p>
+                    
+                    <a href="/login" className="login-redirect">Login</a>
                 </form>
             </div>  
         </div>
