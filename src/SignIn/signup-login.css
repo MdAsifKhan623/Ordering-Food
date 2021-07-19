@@ -25,3 +25,10 @@
     background-color: #39A2DB;
     border: none;
 }
+.login-redirect{
+
+    text-decoration: none;
+    color: red;
+    font-weight: bolder;
+
+}
