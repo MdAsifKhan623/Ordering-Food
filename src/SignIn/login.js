@@ -46,10 +46,10 @@ export default function Login(){
                     </fieldset>
                     <br/>
                     <p>
-                        <button type="submit" className="signup-btn">Submit</button>
+                        <button type="submit" className="signup-btn"><b>Submit</b></button>
                     </p>
 
-                    <p>Don't Have an Account? Register Below.</p>
+                    <p><b>Don't Have an Account? Register Below.</b></p>
                     <a href="/signup" className="login-redirect" >Register</a>
                     
                 </form>

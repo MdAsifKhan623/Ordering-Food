@@ -71,9 +71,9 @@ export default function SignUp(){
                     </fieldset>
                     <br/>
                     <p>
-                        <button type="submit" className="signup-btn">Submit</button>
+                        <button type="submit" className="signup-btn"><b>Submit</b></button>
                     </p>      
-                    <p>Already Have an Account ?</p>
+                    <p><b>Already Have an Account ?</b></p>
                     
                     <a href="/login" className="login-redirect">Login</a>
                 </form>
