@@ -1,12 +1,15 @@
 import React,{useState,useEffect} from 'react'
 
 export default function Login(){
+    const [usersCheck,findUsersCheck]=useState(false)
     const [userDetails, setSignUpDetails]=useState({
         userEmail:"",
         password:"",
     })
     const registerHandler=(event)=>{
         event.preventDefault()
+        event.target.password=""
+        console.log(userDetails,)
     }
 
     const handleChange=(event)=>{
@@ -17,7 +20,15 @@ export default function Login(){
 
     return (
         <div  className="signup-box">
-            <h1><center><i class="fa fa-user" aria-hidden="true"></i></center></h1>
+            <center>
+                <h1>
+                    <p>Login</p>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </h1>
+                {usersCheck && <p className="error-check">Invalid Username or Password</p>}
+            
+            </center>
+            
             <div className="signup">
                 <form onSubmit={registerHandler}>
                     <fieldset>
@@ -35,7 +46,7 @@ export default function Login(){
                         <label>
                             <input
                                 className="text-field"
-                                type='text'
+                                type='password'
                                 name="password"
                                 placeholder="Password"
                                 onChange={handleChange}

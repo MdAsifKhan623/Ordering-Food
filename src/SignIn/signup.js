@@ -26,6 +26,7 @@ export default function SignUp(){
         <div  className="signup-box">
             <h2><center>Create an Account!</center></h2>
             <h1><center><i class="fas fa-user-plus"></i></center></h1>
+            
             <div className="signup">
                 <form onSubmit={registerHandler}>
                     <fieldset>
@@ -37,6 +38,7 @@ export default function SignUp(){
                                 placeholder="Email Id"
                                 onChange={handleChange}
                             />
+                            
                         </label>
                         <br/>
                         <label>
