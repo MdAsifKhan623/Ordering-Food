@@ -8,8 +8,10 @@ export default function Login(){
     })
     const registerHandler=(event)=>{
         event.preventDefault()
-        event.target.password=""
-        console.log(userDetails,)
+        setSignUpDetails({
+            userEmail:"",
+            password:""
+        })
     }
 
     const handleChange=(event)=>{
@@ -39,6 +41,7 @@ export default function Login(){
                                 name="userEmail"
                                 placeholder="Email Id"
                                 onChange={handleChange}
+                                value={userDetails.userEmail}
                             />
                         </label>
             
@@ -50,6 +53,7 @@ export default function Login(){
                                 name="password"
                                 placeholder="Password"
                                 onChange={handleChange}
+                                value={userDetails.password}
                             />
                         </label>
                         <br/>
