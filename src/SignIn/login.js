@@ -6,12 +6,17 @@ export default function Login(){
         userEmail:"",
         password:"",
     })
+
+
     const registerHandler=(event)=>{
+
         event.preventDefault()
         setSignUpDetails({
             userEmail:"",
             password:""
         })
+        
+
     }
 
     const handleChange=(event)=>{
