@@ -8,12 +8,7 @@ import foodFrontPage from "./assets/food-front-page.jpg"
 import Footer from './FrontPage/footer'
 
 function App() {
-  // let [result,setResult]=useState('')
-  // useEffect(()=>{
-  //   axios.get("http://localhost:5000/").then(res=>{
-  //     setResult(res.data)
-  //   })
-  // })
+
   return (
     <div className="App">
       <div className="Header-Nav">
