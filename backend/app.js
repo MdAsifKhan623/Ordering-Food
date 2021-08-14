@@ -3,20 +3,11 @@ const express= require('express')
 const cors=require('cors')
 const { Connection } = require('mongoose')
 const app=express()
+const dbConnection= require('./database')
+
 app.use(cors())
 
-const databaseName="food-order"
-
-mongoose.connect(`mongodb://127.0.0.1:21017/${databaseName}`,{
-            useNewUrlParser:true,
-            useUnifiedTopology:true,
-            useCreateIndex:true});
-
-const connection =mongoose.connection;
-
-connection.once("open",()=>{
-    console.log("Connection to Mongo Db Was successful!")
-})
+dbConnection();
 
 app.options("*",cors())
 
