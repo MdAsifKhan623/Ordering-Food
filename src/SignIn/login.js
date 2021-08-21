@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react'
+import backgroundImage from "../assets/food-front-page.jpg"
 
 export default function Login(){
     const [usersCheck,findUsersCheck]=useState(false)
@@ -27,6 +28,7 @@ export default function Login(){
 
     return (
         <div  className="signup-box">
+            <img src={backgroundImage} className="food-image"/>
             <center>
                 <h1>
                     <p>Login</p>

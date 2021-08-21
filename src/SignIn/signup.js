@@ -1,5 +1,5 @@
-import React,{useState,useEffect} from 'react'
-
+import React,{useState} from 'react'
+import backgroundImage from "../assets/food-front-page.jpg"
 
 export default function SignUp(){
 
@@ -9,6 +9,7 @@ export default function SignUp(){
         password:"",
         confirmPassword:""
     })
+
     const registerHandler=(event)=>{
         event.preventDefault()
         if(userDetails.password !== userDetails.confirmPassword){
@@ -24,6 +25,7 @@ export default function SignUp(){
 
     return (
         <div  className="signup-box">
+            <img src={backgroundImage} className="food-image"/>
             <h2><center>Create an Account!</center></h2>
             <h1><center><i class="fas fa-user-plus"></i></center></h1>
             
