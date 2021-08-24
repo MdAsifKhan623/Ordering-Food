@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import backgroundImage from "../assets/food-front-page.jpg"
-
+import signup from "../assets/signup.png"
 export default function SignUp(){
 
     const [userDetails, setSignUpDetails]=useState({
@@ -26,7 +26,10 @@ export default function SignUp(){
     return (
         <div  className="signup-box">
             <img src={backgroundImage} className="food-image"/>
-            <h2><center>Create an Account!</center></h2>
+            <h2><center>
+            Create an Account!
+            <image src={signup}/>
+            </center></h2>
             <h1><center><i class="fas fa-user-plus"></i></center></h1>
             
             <div className="signup">

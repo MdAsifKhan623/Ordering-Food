@@ -1,5 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import backgroundImage from "../assets/food-front-page.jpg"
+import login from "../assets/login.png"
 
 export default function Login(){
     const [usersCheck,findUsersCheck]=useState(false)
@@ -32,6 +33,7 @@ export default function Login(){
             <center>
                 <h1>
                     <p>Login</p>
+                    <image src={login}/>
                     <i class="fa fa-user" aria-hidden="true"></i>
                 </h1>
                 {usersCheck && <p className="error-check">Invalid Username or Password</p>}
